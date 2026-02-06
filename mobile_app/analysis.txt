@@ -1,0 +1,145 @@
+Analyzing mobile_app...                                         
+
+  error - Undefined name 'result' - lib\screens\home_screen.dart:110:14 - undefined_identifier
+  error - Undefined name 'result' - lib\screens\home_screen.dart:110:40 - undefined_identifier
+warning - The value of the local variable 'text' isn't used - lib\screens\home_screen.dart:195:16 - unused_local_variable
+  error - The name 'text' is already defined - lib\screens\home_screen.dart:195:16 - duplicate_definition
+  error - The argument type 'String?' can't be assigned to the parameter type 'String'.  - lib\screens\home_screen.dart:197:45 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:307:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:328:70 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:329:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:346:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:386:73 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:409:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:411:118 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:432:133 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:448:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:462:74 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:486:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:488:67 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:511:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:512:68 - deprecated_member_use
+warning - Dead code - lib\services\api_service.dart:94:3 - dead_code
+warning - The declaration 'watermarkPdf' isn't referenced - lib\services\api_service.dart:94:17 - unused_element
+warning - The declaration 'rotatePdf' isn't referenced - lib\services\api_service.dart:122:17 - unused_element
+warning - The declaration 'protectPdf' isn't referenced - lib\services\api_service.dart:126:17 - unused_element
+warning - The declaration 'unlockPdf' isn't referenced - lib\services\api_service.dart:130:17 - unused_element
+warning - The declaration 'getMetadata' isn't referenced - lib\services\api_service.dart:134:19 - unused_element
+warning - The declaration 'addPageNumbers' isn't referenced - lib\services\api_service.dart:144:17 - unused_element
+warning - The declaration 'reorderPages' isn't referenced - lib\services\api_service.dart:148:17 - unused_element
+warning - The declaration 'removePages' isn't referenced - lib\services\api_service.dart:152:17 - unused_element
+warning - The declaration 'resizePages' isn't referenced - lib\services\api_service.dart:156:17 - unused_element
+warning - The declaration 'convertToWord' isn't referenced - lib\services\api_service.dart:160:17 - unused_element
+warning - The declaration 'convertToExcel' isn't referenced - lib\services\api_service.dart:164:17 - unused_element
+warning - The declaration 'generateFromHtml' isn't referenced - lib\services\api_service.dart:168:17 - unused_element
+warning - The declaration 'repairPdf' isn't referenced - lib\services\api_service.dart:183:17 - unused_element
+  error - Expected to find '}' - lib\services\api_service.dart:187:1 - expected_token
+   info - The imported package 'syncfusion_flutter_pdf' isn't a dependency of the importing package - lib\services\local_advanced_service.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:syncfusion_flutter_pdf/pdf.dart' - lib\services\local_advanced_service.dart:2:8 - uri_does_not_exist
+   info - The imported package 'syncfusion_flutter_docio' isn't a dependency of the importing package - lib\services\local_advanced_service.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:syncfusion_flutter_docio/docio.dart' - lib\services\local_advanced_service.dart:3:8 - uri_does_not_exist
+   info - The imported package 'syncfusion_flutter_xlsio' isn't a dependency of the importing package - lib\services\local_advanced_service.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:syncfusion_flutter_xlsio/xlsio.dart' - lib\services\local_advanced_service.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:17:13 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:17:36 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:20:15 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:20:38 - undefined_method
+   info - Don't invoke 'print' in production code - lib\services\local_advanced_service.dart:44:7 - avoid_print
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:52:12 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:52:41 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:54:15 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:54:43 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:68:11 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:68:34 - undefined_method
+  error - Undefined class 'PdfPageOrientation' - lib\services\local_advanced_service.dart:69:11 - undefined_class
+warning - The value of the local variable 'orientation' isn't used - lib\services\local_advanced_service.dart:69:30 - unused_local_variable
+  error - Undefined name 'PdfPageOrientation' - lib\services\local_advanced_service.dart:70:41 - undefined_identifier
+  error - Undefined name 'PdfPageOrientation' - lib\services\local_advanced_service.dart:70:72 - undefined_identifier
+  error - Undefined class 'PdfPageRotateAngle' - lib\services\local_advanced_service.dart:74:5 - undefined_class
+  error - Undefined name 'PdfPageRotateAngle' - lib\services\local_advanced_service.dart:74:38 - undefined_identifier
+  error - Undefined name 'PdfPageRotateAngle' - lib\services\local_advanced_service.dart:75:36 - undefined_identifier
+  error - Undefined name 'PdfPageRotateAngle' - lib\services\local_advanced_service.dart:76:37 - undefined_identifier
+  error - Undefined name 'PdfPageRotateAngle' - lib\services\local_advanced_service.dart:77:37 - undefined_identifier
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:89:11 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:89:34 - undefined_method
+  error - Undefined class 'PdfSecurity' - lib\services\local_advanced_service.dart:90:11 - undefined_class
+  error - Undefined name 'PdfEncryptionAlgorithm' - lib\services\local_advanced_service.dart:93:26 - undefined_identifier
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:104:13 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:104:36 - undefined_method
+   info - Don't invoke 'print' in production code - lib\services\local_advanced_service.dart:113:7 - avoid_print
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:119:11 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:119:34 - undefined_method
+  error - Undefined class 'PdfPage' - lib\services\local_advanced_service.dart:121:13 - undefined_class
+  error - Undefined class 'PdfGraphics' - lib\services\local_advanced_service.dart:122:13 - undefined_class
+  error - Undefined class 'PdfFont' - lib\services\local_advanced_service.dart:123:13 - undefined_class
+  error - The method 'PdfStandardFont' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:123:28 - undefined_method
+  error - Undefined name 'PdfFontFamily' - lib\services\local_advanced_service.dart:123:44 - undefined_identifier
+  error - Undefined name 'PdfBrushes' - lib\services\local_advanced_service.dart:126:18 - undefined_identifier
+  error - Undefined name 'Rect' - lib\services\local_advanced_service.dart:127:19 - undefined_identifier
+  error - The method 'PdfStringFormat' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:128:19 - undefined_method
+  error - Undefined name 'PdfTextAlignment' - lib\services\local_advanced_service.dart:128:46 - undefined_identifier
+  error - Undefined name 'PdfVerticalAlignment' - lib\services\local_advanced_service.dart:128:86 - undefined_identifier
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:136:11 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:136:34 - undefined_method
+  error - Undefined class 'PdfBitmap' - lib\services\local_advanced_service.dart:138:11 - undefined_class
+  error - The method 'PdfBitmap' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:138:29 - undefined_method
+  error - Undefined class 'PdfPage' - lib\services\local_advanced_service.dart:141:15 - undefined_class
+  error - Undefined class 'Size' - lib\services\local_advanced_service.dart:142:15 - undefined_class
+  error - Undefined name 'Rect' - lib\services\local_advanced_service.dart:151:40 - undefined_identifier
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:185:13 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:185:31 - undefined_method
+  error - Undefined class 'PdfPage' - lib\services\local_advanced_service.dart:186:13 - undefined_class
+  error - The method 'PdfStandardFont' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:187:38 - undefined_method
+  error - Undefined name 'PdfFontFamily' - lib\services\local_advanced_service.dart:187:54 - undefined_identifier
+  error - Undefined name 'Rect' - lib\services\local_advanced_service.dart:188:19 - undefined_identifier
+   info - Don't invoke 'print' in production code - lib\services\local_advanced_service.dart:194:7 - avoid_print
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:214:13 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:214:31 - undefined_method
+  error - Undefined class 'PdfPage' - lib\services\local_advanced_service.dart:215:13 - undefined_class
+  error - The method 'PdfStandardFont' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:217:11 - undefined_method
+  error - Undefined name 'PdfFontFamily' - lib\services\local_advanced_service.dart:217:27 - undefined_identifier
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:230:11 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:230:34 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:240:12 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:240:35 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:241:12 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:241:33 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:255:11 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:255:34 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:263:13 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:263:34 - undefined_method
+   info - Don't invoke 'print' in production code - lib\services\local_advanced_service.dart:287:9 - avoid_print
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:312:13 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:312:36 - undefined_method
+  error - The method 'PdfTextExtractor' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:313:21 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:324:13 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:324:36 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:340:11 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:340:34 - undefined_method
+  error - Undefined class 'PdfFont' - lib\services\local_advanced_service.dart:341:11 - undefined_class
+  error - The method 'PdfStandardFont' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:341:26 - undefined_method
+  error - Undefined name 'PdfFontFamily' - lib\services\local_advanced_service.dart:341:42 - undefined_identifier
+  error - Undefined class 'PdfPage' - lib\services\local_advanced_service.dart:344:15 - undefined_class
+  error - Undefined class 'Size' - lib\services\local_advanced_service.dart:345:15 - undefined_class
+  error - Undefined name 'Rect' - lib\services\local_advanced_service.dart:348:21 - undefined_identifier
+  error - The method 'PdfStringFormat' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:349:21 - undefined_method
+  error - Undefined name 'PdfTextAlignment' - lib\services\local_advanced_service.dart:349:48 - undefined_identifier
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:363:15 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:363:38 - undefined_method
+  error - Undefined class 'PdfDocument' - lib\services\local_advanced_service.dart:364:15 - undefined_class
+  error - The method 'PdfDocument' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:364:39 - undefined_method
+  error - Undefined class 'PdfPage' - lib\services\local_advanced_service.dart:367:19 - undefined_class
+  error - Undefined class 'Size' - lib\services\local_advanced_service.dart:368:19 - undefined_class
+  error - The method 'Size' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:368:34 - undefined_method
+  error - Undefined class 'PdfTemplate' - lib\services\local_advanced_service.dart:371:19 - undefined_class
+  error - Undefined class 'PdfPage' - lib\services\local_advanced_service.dart:374:19 - undefined_class
+  error - The method 'Offset' isn't defined for the type 'LocalAdvancedService' - lib\services\local_advanced_service.dart:382:56 - undefined_method
+   info - Don't invoke 'print' in production code - lib\services\local_advanced_service.dart:390:9 - avoid_print
+warning - Unused import: 'package:pdf/pdf.dart' - lib\services\local_pdf_service.dart:2:8 - unused_import
+warning - Unused import: 'package:printing/printing.dart' - lib\services\local_pdf_service.dart:4:8 - unused_import
+warning - The value of the local variable 'file' isn't used - lib\services\local_pdf_service.dart:11:14 - unused_local_variable
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\theme\app_theme.dart:12:7 - deprecated_member_use
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\theme\app_theme.dart:17:16 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\app_theme.dart:22:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\app_theme.dart:35:46 - deprecated_member_use
+

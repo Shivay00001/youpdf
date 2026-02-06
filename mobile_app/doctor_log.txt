@@ -1,0 +1,38 @@
+[√] Flutter (Channel stable, 3.38.4, on Microsoft Windows [Version 10.0.26200.7462], locale en-IN) [1,173ms]
+    • Flutter version 3.38.4 on channel stable at c:\src\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 66dd93f9a2 (7 weeks ago), 2025-12-03 14:56:10 -0800
+    • Engine revision a5cb96369e
+    • Dart version 3.10.3
+    • DevTools version 2.51.1
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+
+[√] Windows Version (Windows 11 or higher, 25H2, 2009) [2.8s]
+
+[√] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [7.3s]
+    • Android SDK at C:\Users\shiva\AppData\Local\Android\sdk
+    • Emulator version 36.2.12.0 (build_id 14214601) (CL:N/A)
+    • Platform android-36, build-tools 36.1.0
+    • Java binary at: C:\program1\jbr\bin\java
+      This is the JDK bundled with the latest Android Studio installation on this machine.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+    • All Android licenses accepted.
+
+[√] Chrome - develop for the web [498ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[√] Visual Studio - develop Windows apps (Visual Studio Build Tools 2019 16.11.52) [495ms]
+    • Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools
+    • Visual Studio Build Tools 2019 version 16.11.36602.28
+    • Windows 10 SDK version 10.0.19041.0
+
+[√] Connected device (3 available) [2.6s]
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26200.7462]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 143.0.7499.193
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 144.0.3719.82
+
+[√] Network resources [1,760ms]
+    • All expected network resources are available.
+
+• No issues found!

@@ -1,0 +1,55 @@
+name: mobile_app
+description: "YOU.PDF - All-in-One PDF Toolkit with Embedded Python"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  http: ^1.6.0
+  file_picker: ^10.3.8
+  path: ^1.9.1
+  open_file: ^3.5.11
+  path_provider: ^2.1.5
+  google_fonts: ^6.0.0
+  flutter_animate: ^4.5.2
+  shared_preferences: ^2.2.3
+  permission_handler: ^11.0.1
+  url_launcher: ^6.2.6
+  share_plus: ^7.2.1
+  flutter_file_dialog: ^3.0.3
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Chaquopy for Android Python embedding
+chaquopy:
+  version: ^2024.0.1
+  pip:
+    install:
+      - PyPDF2>=3.0.1
+      - pymupdf>=1.22.0
+      - reportlab>=4.0.0
+      - Pillow>=10.0.0
+      - pdf2docx>=0.0.1
+      - pdfplumber>=0.10.0
+      - xhtml2pdf>=0.2.11
+      - qrcode>=7.4.2
+      - markdown>=3.5.0
+      - python-multipart>=0.0.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - python_server/
